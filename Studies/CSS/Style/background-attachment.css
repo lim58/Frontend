@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-wrap {
+  min-height: 600px;
+  /* page-wrap 보다 bg-wrap이 작은 경우, page-wrap이 가리는 문제를 해결 */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* 마진 상쇄 문제 해결을 위한 코드*/
+  overflow: auto;
+}
+
+.city {
+  background-image: url("https://www.pcclean.io/wp-content/uploads/2020/4/3MJZNj.jpg");
+  background-attachment: fixed;
+}
+
+.normal {
+  background-image: url("https://us.123rf.com/450wm/digieye/digieye1406/digieye140600563/29352339-%EA%B7%B8%EB%9F%B0-%EC%A7%80-%EB%B0%B0%EA%B2%BD%EC%83%89-%EB%98%90%EB%8A%94-%EC%A7%88%EA%B0%90-%EC%83%89.jpg");
+}
+
+#page-wrap {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+  font: 15px/2 Georgia, Serif;
+}
