@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin : 20px;
+    padding: 20px
+}
+
+header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.title {
+    width : 10%
+    height : 10%
+    text-align: ;
+}
+
+.header1 {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(173, 159, 186);  
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+content {
+    display: flex;
+    margin: 20px;
+
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
