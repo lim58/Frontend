@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  width: 150px;
+  height: 150px;
+  background: darkseagreen;
+  border: 1px solid black;
+}
+
+.static-box {
+  position: static;
+  background: darkblue;
+  color: azure;
+  font-weight: bold;
+  text-align: center;
+  line-height: 150px;
+}
+
+/*
+static는 position 프로퍼티의 기본값으로 position 프로퍼티를 지정하지 않았을 때와 같음
+부모 요소의 위치를 기준으로 배치됨
+*/
