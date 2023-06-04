@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.d1,
+.d2 {
+  display: inline-block;
+  width: 50%;
+  padding: 20px 0;
+  font-size: 1rem;
+  /*폰트 사이즈 재배정*/
+}
+
+.d1 {
+  background-color: skyblue;
+}
+
+.d2 {
+  background-color: plum;
+}
