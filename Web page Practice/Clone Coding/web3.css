@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 100px;
+  padding: 15px;
+}
+
+h4 {
+  padding-bottom: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.rocate-text {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+span {
+  margin: 10px 50px;
+}
+
+/*
+content-left {
+  display: inline-block;
+  flex-basis: 50%;
+}
+
+content-right {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+*/
