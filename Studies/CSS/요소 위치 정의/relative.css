@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent {
+  width: 100px;
+  height: 100px;
+  background: plum;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+.relative-box {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background: sandybrown;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
