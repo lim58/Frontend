@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 50px;
+}
+
+content {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: 200px 50px 50px 1000px;
+}
+/*
+.content1 {
+  flex-direction: column;
+}
+*/
+.content2 {
+  display: inline-flex;
+}
+button {
+  width: 100px;
+  height: 30px;
+}
+body {
+  background-image: url("https://blog.kakaocdn.net/dn/caDM2D/btqHTZMeRfR/8tUOKUiXyGoe7BLfImHTR1/img.png");
+  background-size: cover;
+}
+
+.line {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+span {
+  margin: 30px;
+}
