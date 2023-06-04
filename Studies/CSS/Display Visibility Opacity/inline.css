@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+span {
+  background-color: rgb(95, 11, 173);
+  color: white;
+  padding: 10px;
+}
