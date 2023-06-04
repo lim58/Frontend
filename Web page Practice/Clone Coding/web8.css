@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: auto;
+  height: 10%;
+  margin: 0px 30px;
+}
+
+.header-top {
+  display: flex;
+  float: right;
+}
+
+/*
+.header-top > button {
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
+  font-size: 12px;
+}
+*/
+
+.header-center {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 10%;
+}
+
+.navs {
+  width: auto;
+  height: 50%;
+  background-image: url("https://altia.com/wp-content/uploads/2021/11/medical-hero-image-1024x576.jpg");
+  background-size: cover;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title {
+  margin: 70px;
+  text-align: center;
+  /*-webkit-text-stroke: 2px black;*/
+  text-shadow: 2px 2px 7px rgb(46, 46, 46);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.box {
+  background-color: rgb(2, 35, 36);
+  color: white;
+
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 100%;
+  opacity: 0.9;
+
+  text-align: center;
+  line-height: 30px;
+  /*letter-spacing: -5px;*/
+
+  /*
+  display: grid;
+  place-items: center;
+  */
+}
+
+small {
+  color: rgb(198, 228, 255);
+}
+
+footer {
+  width: auto;
+  height: 40%;
+  margin: 20px 10px;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  background-image: url("https://media.istockphoto.com/id/1409245080/ko/%EC%82%AC%EC%A7%84/%EC%95%84%EB%82%A0%EB%A1%9C%EA%B7%B8-tv-%ED%99%94%EB%A9%B4-vhs-%EC%A0%84%ED%99%98-%EB%B0%B0%EA%B2%BD%EC%9D%98-%EC%B6%94%EC%83%81-%ED%95%84%EB%A6%84-%EB%85%B8%EC%9D%B4%EC%A6%88.jpg?b=1&s=170667a&w=0&k=20&c=NJrUmSNJgfbGLfLkdDmbKXQZsoDpdxYt1gCiuST9Tis=");
+  background-size: cover;
+}
+
+.going {
+  background-color: rgb(55, 55, 55);
+  opacity: 0.9;
+  width: 380px;
+  height: 100px;
+  padding: 40px 0px;
+
+  text-align: center;
+  line-height: 25px;
+}
+
+.going > h4 {
+  color: aliceblue;
+}
+
+.going > p {
+  color: rgb(148, 170, 188);
+}
+
+.going > button {
+  color: slateblue;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 100%;
+}
