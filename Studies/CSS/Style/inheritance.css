@@ -1,0 +1,14 @@
+.text-red {
+  color: red;
+  border: 1px soild black;
+  padding: 10px;
+}
+
+.text-red button {
+  color: inherit;
+}
+
+.text-red p {
+  border: inherit;
+  padding: inherit;
+}
