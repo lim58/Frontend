@@ -1,0 +1,33 @@
+.box {
+  color: white;
+  height: 50px;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.d1 {
+  background: red;
+}
+
+.d2 {
+  background: orange;
+}
+
+.d3 {
+  float: left;
+  background: red;
+}
+
+.d4 {
+  background: orange;
+}
+
+.d5 {
+  float: left;
+  background: red;
+}
+
+.d6 {
+  overflow: hidden;
+  background: orange;
+}
