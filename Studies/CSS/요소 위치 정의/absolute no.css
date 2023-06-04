@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background: green;
+  border: 2px solid black;
+  margin: 50px 0px 300px;
+  position: relative;
+}
+
+.absolute-box {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 50px;
+  left: 50px;
+  color: cadetblue;
+  font-weight: bold;
+  text-align: center;
+  background: darkgray;
+  line-height: 200px;
+}
