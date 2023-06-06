@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+h1,
+#todo_input {
+  margin-bottom: 15px;
+}
+
+#addBtn {
+  color: white;
+  background-color: #4a40d9;
+  width: 30px;
+  height: 20px;
+  border: 0px;
+  border-radius: 10%;
+  font-size: 10px;
+}
