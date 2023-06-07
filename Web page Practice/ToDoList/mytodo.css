@@ -12,15 +12,52 @@
   height: 100vh;
 }
 
+.todo_input {
+  display: flex;
+  align-items: center;
+}
+
+.todo_input input,
+.todo_input select,
+.todo_input button {
+  height: 20px;
+  margin: 5px;
+}
+
 h1,
 #todo_input {
   margin-bottom: 15px;
 }
 
+.todo_output {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 30px 0px 0px;
+  width: 1200px;
+  height: 400px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#study,
+#life,
+#other {
+  width: 380px;
+  height: 450px;
+  margin: 30px;
+  padding: 10px 20px 20px;
+  border: 2px solid #9890ea;
+}
+
 #addBtn {
   color: white;
   background-color: #4a40d9;
-  width: 30px;
+  width: 50px;
   height: 20px;
   border: 0px;
   border-radius: 10%;
