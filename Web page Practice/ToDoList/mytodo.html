@@ -10,13 +10,25 @@
   <body>
     <div class="container">
       <h1>ToDoList</h1>
-      <div id="todo_input">
+      <div class="todo_input">
         <input type="text" id="user_text" />
+        <form>
+          <select id="select_input">
+            <option value="study">study</option>
+            <option value="life">life</option>
+            <option value="other">other</option>
+          </select>
+        </form>
         <button onclick="addBtn()" id="addBtn">Add</button>
       </div>
 
-      <ul id="todo_output"></ul>
+      <div class="todo_output">
+        <div id="study"><div id="title">study</div></div>
+        <div id="life"><div id="title">life</div></div>
+        <div id="other"><div id="title">other</div></div>
+      </div>
     </div>
+
     <script src="mytodo.js"></script>
   </body>
 </html>
