@@ -1,6 +1,11 @@
 function addBtn() {
   let text = document.getElementById("user_text");
+  let select = document.getElementById("select_input");
+
   let todolist = document.getElementById("todo_output");
+  let study = document.getElementById("study");
+  let life = document.getElementById("life");
+  let other = document.getElementById("other");
 
   if (text.value === "") {
     alert("입력해주세요!");
@@ -18,20 +23,42 @@ function addBtn() {
 
     item.style.display = "flex";
     item.style.marginBottom = "10px";
+    item.style.gap = "20px";
 
-    todolist.appendChild(item);
-    text.value = "";
-  }
-
-  delBtn.addEventListener("click", function () {
-    todolist.removeChild(item);
-  });
-
-  text.addEventListener("dblclick", function () {
-    if (li.style.color === "") {
-      li.style.color = "grey";
+    if (select.value === "study") {
+      study.appendChild(item);
+    } else if (select.value === "life") {
+      life.appendChild(item);
     } else {
-      li.style.color = "";
+      other.appendChild(item);
     }
-  });
+
+    text.value = "";
+
+    delBtn.addEventListener("click", function () {
+      if (select.value === "study") {
+        study.removeChild(item);
+      } else if (select.value === "life") {
+        life.removeChild(item);
+      } else {
+        other.removeChild(item);
+      }
+    });
+
+    list.addEventListener("click", function () {
+      if (list.style.color === "") {
+        list.style.color = "grey";
+      } else {
+        list.style.color = "";
+      }
+    });
+
+    list.addEventListener("dblclick", function () {
+      if (list.style.backgroundColor === "") {
+        list.style.backgroundColor = "moccasin";
+      } else {
+        list.style.backgroundColor = "";
+      }
+    });
+  }
 }
