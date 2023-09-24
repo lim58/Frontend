@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const name = prompt("이름입력");
+
+      function sayHello(userName) {
+        if (userName) {
+          alert(`안녕 ${userName}`);
+        } else if (!userName) {
+          alert("환영해");
+        }
+      }
+      sayHello(name);
+    </script>
+  </body>
+</html>
