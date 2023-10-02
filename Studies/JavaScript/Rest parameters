@@ -1,0 +1,45 @@
+function showName(...names) {
+  console.log(names);
+}
+showName(); //빈배열
+showName("mike");
+showName("mike", "tom");
+// 정해지지 않은 개수의 인수를 배열로 나타냄
+
+//더한값
+function add(...num) {
+  let result = 0;
+  num.forEach((num) => {
+    result += num;
+  });
+  console.log(result);
+}
+
+add(1, 2, 3, 4, 5);
+add(100, 200, 300);
+
+function hap(...num) {
+  let result = num.reduce((pred, cur) => {
+    return (pred += cur);
+  });
+  console.log(result)
+}
+
+hap(1, 2, 3, 4, 5);
+hap(100, 200, 300);
+
+
+//생성자 함수
+function User(name, age, ...skills) {
+    this.name = name
+    this.age = age
+    this.skills = skills
+}
+
+const user1 = new User ("mike", 10, "html", "css")
+const user2 = new User ("jane", 20, "jS", "english")
+const user3 = new User ("mile", 30, "react", "nodejs")
+
+console.log(user1)
+console.log(user2)
+console.log(user3)
